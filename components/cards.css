@@ -10,7 +10,7 @@
   background-color: var(--ease-color-surface, #ffffff);
   border: 1px solid var(--ease-color-neutral-200, #e2e8f0);
   border-radius: var(--ease-radius-lg, 1rem);
-  padding: var(--ease-space-6, 1.5rem);
+  padding: var(--space-md);
   overflow: hidden;
   position: relative;
   max-width: 100%;
@@ -230,7 +230,7 @@
 }
 
 .ease-card-image .ease-card-body {
-  padding: var(--ease-space-6, 1.5rem);
+  padding: var(--space-md);
 }
 
 /* ── Compact Card ──────────────────────────────────────────── */

@@ -11,8 +11,8 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: var(--ease-space-4, 1rem);
-    padding: var(--ease-space-4, 1rem) var(--ease-space-6, 1.5rem);
+    gap: var(--space-md);
+    padding: var(--space-md) var(--space-lg);
     min-height: 4rem;
     width: 100%;
     background: rgba(255, 255, 255, 0.18);
@@ -50,12 +50,13 @@
   }
 
   .ease-navbar-glass .ease-navbar-menu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--ease-space-4, 1rem);
-    align-items: center;
-    justify-content: flex-end;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: var(--space-md);
+}
 
   .ease-navbar-glass .ease-navbar-item {
     text-decoration: none;
@@ -71,11 +72,11 @@
   }
 
   .ease-navbar-glass .ease-navbar-item:focus-visible {
-    color: var(--ease-color-neutral-900, #0f172a);
-    outline: 2px solid var(--ease-color-primary, #6c63ff);
-    outline-offset: 4px;
-    border-radius: var(--ease-radius-sm, 0.25rem);
-  }
+  color: var(--ease-color-neutral-900, #0f172a);
+  outline: 2px solid var(--ease-color-primary, #6c63ff);
+  outline-offset: 3px;
+  border-radius: var(--ease-radius-sm, 0.25rem);
+}
 
   .ease-navbar-glass-sticky {
     position: sticky;
